@@ -26,6 +26,6 @@ def selective_tweet_shortener(tweet)
   if tweet.length < 130
     puts tweet
   else
-    puts tweet[1..137] + "..."
+    puts tweet[0..137] + "..."
   end 
 end
