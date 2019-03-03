@@ -11,7 +11,7 @@ def word_substituter(tweet)
   new_list_2 = new_list.split
   new_array = tweet.split
   new_array.collect! do |x|
-    if (new_list.include?(x))
+    if (new_list_2.include?(x))
       dictionary[x]
     else
       x 
