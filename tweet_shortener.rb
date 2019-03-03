@@ -27,4 +27,5 @@ def selective_tweet_shortener(tweet)
     puts tweet
   else
     puts tweet[1..137] + "..."
+  end 
 end
