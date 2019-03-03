@@ -10,7 +10,7 @@ def word_substituter(tweet)
   new_array = tweet.split
   new_array.collect! do |x|
     if (list.include?(x))
-      "hi"
+      dictionary[x]
       binding.pry 
     end 
   end 
