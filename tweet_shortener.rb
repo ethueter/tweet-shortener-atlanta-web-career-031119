@@ -7,5 +7,10 @@ end
 def word_substituter(tweet)
   tweet.split.collect |word|
   if dictionary.key.include?(word)
-    
+    word = dictionary[word]
+  else
+    word
+  end
+end.join(" ")
+
 end 
