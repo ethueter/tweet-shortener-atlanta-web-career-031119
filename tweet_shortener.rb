@@ -6,7 +6,7 @@ end
 
 def word_substituter(tweet)
   dictionary
-  list = dictionary.keys
+  list = dictionary.keys.split(,)
   
   new_array = tweet.split
   new_array.collect! do |x|
