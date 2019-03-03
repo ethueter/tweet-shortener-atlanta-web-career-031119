@@ -15,7 +15,7 @@ def word_substituter(tweet)
       dictionary[x]
     else
       x 
-       
+       binding.pry 
     end 
   end 
   new_array.join(" ")  
