@@ -5,6 +5,7 @@ end
 def word_substituter(tweet)
   dictionary
   list = dictionary.keys
+  binding.pry 
   new_array = tweet.split
   new_array.each do |x|
     
