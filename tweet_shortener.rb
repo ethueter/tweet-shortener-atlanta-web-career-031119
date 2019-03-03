@@ -30,3 +30,6 @@ def selective_tweet_shortener(tweet)
     puts tweet
   end
 end 
+
+def shortened_tweet_truncator(tweet)
+end 
