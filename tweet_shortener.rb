@@ -8,5 +8,6 @@ def word_substituter(tweet)
   binding.pry 
   new_array = tweet.split
   new_array.each do |x|
+  end 
     
 end 
