@@ -23,11 +23,10 @@ def bulk_tweet_shortener(array_of_tweets)
 end
 
 def selective_tweet_shortener(tweet)
-  tweet.collect do |tweet| 
+   binding.pry 
   if tweet.length < 130
     puts tweet
   else
     puts tweet[0..137] + "..."
   end
 end 
-end
