@@ -10,7 +10,7 @@ def word_substituter(tweet)
   new_array = tweet.split
   new_array.each do |x|
     if list.include?(x)
-      #{x}= "#{list["#{x}"]}"
+      #{x}= 
       binding.pry 
     end 
   end 
