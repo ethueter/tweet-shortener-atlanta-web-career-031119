@@ -6,11 +6,12 @@ end
 
 def word_substituter(tweet)
   dictionary
-  list = dictionary.keys.split(,)
-  
+  list = dictionary.keys
+  list_2 = list.join(", ")
+  list_3 = list_2.split(", ")
   new_array = tweet.split
   new_array.collect! do |x|
-    if (list.include?(x))
+    if (list_3.include?(x))
       dictionary[x]
     else
       x 
