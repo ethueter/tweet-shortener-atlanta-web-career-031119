@@ -8,9 +8,9 @@ def word_substituter(tweet)
   dictionary
   list = dictionary.keys
   new_array = tweet.split
-  new_array.each do |x|
+  new_array.collect! do |x|
     if list.include?(x)
-      #{x}= 
+      list[x] 
       binding.pry 
     end 
   end 
