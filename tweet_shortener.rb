@@ -11,6 +11,8 @@ def word_substituter(tweet)
   new_array.collect do |x|
     if (list.include?(x))
       dictionary[x]
+    else
+      x 
        
     end 
   end 
