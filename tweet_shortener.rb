@@ -23,8 +23,8 @@ def bulk_tweet_shortener(array_of_tweets)
 end
 
 def selective_tweet_shortener(tweet)
-   binding.pry 
-  if tweet.length < 130
+   
+  if tweet.length < "130"
     puts tweet
   else
     puts tweet[0..137] + "..."
