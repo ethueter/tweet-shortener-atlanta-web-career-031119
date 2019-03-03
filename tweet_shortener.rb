@@ -7,9 +7,10 @@ end
 def word_substituter(tweet)
   dictionary
   list = dictionary.keys
+  new_list = list.split
   new_array = tweet.split
   new_array.collect! do |x|
-    if (list.include?(x))
+    if (new_list.include?(x))
       dictionary[x]
     else
       x 
