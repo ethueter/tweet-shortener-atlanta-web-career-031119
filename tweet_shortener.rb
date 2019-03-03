@@ -11,7 +11,7 @@ def word_substituter(tweet)
   new_array.collect! do |x|
     if (list.include?(x))
       dictionary[x]
-      binding.pry 
+       
     end 
   end 
   new_array.join(" ")  
